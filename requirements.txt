@@ -1,0 +1,7 @@
+
+# Project 034 - Document Converter
+# Install using: python -m pip install -r requirements.txt
+
+python-docx
+reportlab
+pypdf

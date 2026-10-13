@@ -1,0 +1,73 @@
+
+# Project 034 - Document Converter
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging artifacts
+.Python
+*.egg
+*.egg-info/
+wheels/
+pip-wheel-metadata/
+
+# Testing and coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Application logs
+logs/*
+!logs/.gitkeep
+*.log
+
+# Local database and history
+*.sqlite
+*.sqlite3
+*.db
+
+# User-provided input documents
+data/input/*
+!data/input/.gitkeep
+
+# Generated output documents
+data/output/*
+!data/output/.gitkeep
+
+# Local temporary files
+*.tmp
+*.temp
+*.bak
+~$*
+
+# PyInstaller and build artifacts
+build/
+dist/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor temporary files
+*.swp
+*.swo
+*~
